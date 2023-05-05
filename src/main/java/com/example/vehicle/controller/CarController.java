@@ -50,6 +50,7 @@ public class CarController {
 	@GetMapping(value = "/getAll")
 	public List<Car> getCar() {
 		return carSer.getCar();
+		System.out.println("vivek");
 	}
 
 }
